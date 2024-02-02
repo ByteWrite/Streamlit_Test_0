@@ -43,7 +43,7 @@ def main():
     print(f'Model accuracy: {accuracy:.2f}')
 
     print('Saving model...')
-    save_model(model, 'diabetes_prediction_model.pkl')
+    save_model(model, 'models/diabetes_prediction_model.pkl')
 
 if __name__ == '__main__':
     main()
