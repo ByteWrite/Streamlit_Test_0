@@ -5,9 +5,9 @@ import joblib
 import os
 
 # Define the path to the directory containing the model file
-MODEL_DIR = "models"
+# MODEL_DIR = "models"
 MODEL_FILE = "diabetes_prediction_model.pkl"
-MODEL_PATH = os.path.join(MODEL_DIR, MODEL_FILE)
+MODEL_PATH = os.path.join(MODEL_FILE)
 
 def load_model(filepath):
     model = joblib.load(filepath)
